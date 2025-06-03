@@ -1,0 +1,31 @@
+# ── Node & npm ────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.*.backup
+
+# ── Build / coverage / temp ───────────────────
+dist/
+build/
+coverage/
+tmp/
+*.tmp
+
+# ── Environment & secrets ─────────────────────
+.env
+.env.*          # .env.local, .env.dev, etc.
+
+# ── Editor/IDE files ──────────────────────────
+.vscode/
+.idea/
+
+# ── OS clutter ────────────────────────────────
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini
+
+# ── Logs ──────────────────────────────────────
+logs/
+*.log
+
+
